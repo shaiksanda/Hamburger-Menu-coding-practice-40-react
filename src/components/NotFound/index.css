@@ -1,0 +1,33 @@
+/* Write your CSS here */
+
+.bg-container {
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.image {
+  width: 100%;
+}
+
+.heading {
+  margin: 5px;
+  font-family: 'Roboto';
+  color: red;
+  font-weight: bold;
+}
+
+.content {
+  font-family: 'Roboto';
+  margin: 5px;
+}
+
+@media screen and (min-width: 768px) {
+  .image {
+    width: 30%;
+  }
+}
